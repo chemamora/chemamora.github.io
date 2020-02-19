@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "GT Haptik Black";
+  src: url("../fonts/gt-haptik/GT-Haptik-Black.ttf") format("ttf"),
+       url("../fonts/gt-haptik/GT-Haptik-Black.otf") format("otf"),
+       url("../fonts/gt-haptik/GT-Haptik-Black.woff") format("woff"),
+       url("../fonts/gt-haptik/GT-Haptik-Black.woff2") format("woff2"),
+       url("../fonts/gt-haptik/GT-Haptik-Black.eot") format("eot");
+}
+@font-face {
+  font-family: "GT Haptik Bold";
+  src: url("../fonts/gt-haptik/GT-Haptik-Bold.ttf") format("ttf"),
+       url("../fonts/gt-haptik/GT-Haptik-Bold.otf") format("otf"),
+       url("../fonts/gt-haptik/GT-Haptik-Bold.woff") format("woff"),
+       url("../fonts/gt-haptik/GT-Haptik-Bold.woff2") format("woff2"),
+       url("../fonts/gt-haptik/GT-Haptik-Bold.eot") format("eot");
+}
+@font-face {
+  font-family: "GT Haptik Regular";
+  src: url("../fonts/gt-haptik/GT-Haptik-Regular.ttf") format("ttf"),
+       url("../fonts/gt-haptik/GT-Haptik-Regular.otf") format("otf"),
+       url("../fonts/gt-haptik/GT-Haptik-Regular.woff") format("woff"),
+       url("../fonts/gt-haptik/GT-Haptik-Regular.woff2") format("woff2"),
+       url("../fonts/gt-haptik/GT-Haptik-Regular.eot") format("eot");
+}
+
+p {
+  font-size: 24px;
+  font-family: "GT Haptik Regular";
+}
