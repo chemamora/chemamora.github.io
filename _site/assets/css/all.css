@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:100,100i,400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -145,15 +145,18 @@ td, th {
   padding: 0; }
 
 p {
-  font-size: 1.2rem;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400; }
+  font-size: 29px;
+  line-height: 44px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: .8px; }
 
 h4 {
   font-size: 3rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  margin: 0px; }
+  margin: 0px;
+  text-transform: uppercase; }
 
 a {
   color: black;
@@ -703,10 +706,11 @@ img {
   display: flex;
   position: relative;
   top: 80vh;
-  padding: 5rem 0 8rem 0;
+  padding: 5rem 0 100rem 0;
   z-index: 500;
   background-color: black;
   color: white;
+  height: 183vh;
   position: realtive;
   height: 100vh; }
   .information .arrow {
