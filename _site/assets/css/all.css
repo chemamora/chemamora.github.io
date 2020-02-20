@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|IBM+Plex+Sans:100,100i,400,400i,700,700i&display=swap");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -143,21 +144,30 @@ table {
 td, th {
   padding: 0; }
 
-@font-face {
-  font-family: "GT Haptik Black";
-  src: url("../fonts/gt-haptik/GT-Haptik-Black.ttf") format("ttf"), url("../fonts/gt-haptik/GT-Haptik-Black.otf") format("otf"), url("../fonts/gt-haptik/GT-Haptik-Black.woff") format("woff"), url("../fonts/gt-haptik/GT-Haptik-Black.woff2") format("woff2"), url("../fonts/gt-haptik/GT-Haptik-Black.eot") format("eot"); }
-
-@font-face {
-  font-family: "GT Haptik Bold";
-  src: url("../fonts/gt-haptik/GT-Haptik-Bold.ttf") format("ttf"), url("../fonts/gt-haptik/GT-Haptik-Bold.otf") format("otf"), url("../fonts/gt-haptik/GT-Haptik-Bold.woff") format("woff"), url("../fonts/gt-haptik/GT-Haptik-Bold.woff2") format("woff2"), url("../fonts/gt-haptik/GT-Haptik-Bold.eot") format("eot"); }
-
-@font-face {
-  font-family: "GT Haptik Regular";
-  src: url("../fonts/gt-haptik/GT-Haptik-Regular.ttf") format("ttf"), url("../fonts/gt-haptik/GT-Haptik-Regular.otf") format("otf"), url("../fonts/gt-haptik/GT-Haptik-Regular.woff") format("woff"), url("../fonts/gt-haptik/GT-Haptik-Regular.woff2") format("woff2"), url("../fonts/gt-haptik/GT-Haptik-Regular.eot") format("eot"); }
-
 p {
-  font-size: 24px;
-  font-family: "GT Haptik Regular"; }
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400; }
+
+h4 {
+  font-size: 3rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  margin: 0px; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+hr {
+  height: 10px;
+  color: black; }
+
+.hoverit {
+  transition: all 0.3s; }
+
+.hoverit:hover {
+  transform: translate(0, -5px); }
 
 /* 12columns.css | Created by Katherine Kato | Released under the MIT license */
 /* GitHub: https://kathykato.github.io/12columns/ */
@@ -507,14 +517,88 @@ p {
       grid-column-start: span 12;
       grid-column-end: span 12; } } }
 
+.animate-reveal {
+  opacity: 0;
+  -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  -moz-animation: reveal 1s ease-in 1 normal forwards;
+  -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards; }
+
+.animate-first {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0; }
+
+.animate-second {
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms; }
+
+.animate-third {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s; }
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(500%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); } }
+
 @font-face font-family: "GT Haptik Bold" src: url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.eot") src: url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.woff") format("woff"), url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/07342dff729e3ff82873f8eeee4c9612.svg#GT Haptik Bold") format("svg");
-h4 {
-  font-size: 34px; }
-
-body {
-  font-size: 20px;
-  line-height: 1.6; }
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -523,13 +607,11 @@ body {
     box-sizing: border-box; }
 
 body {
-  font-size: 1.125rem;
   line-height: 1.5;
   color: black;
   background: #fff;
   text-rendering: optimizeLegibility;
   position: relative;
-  font-size: 14px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -564,6 +646,8 @@ body {
     display: table-cell;
     vertical-align: middle;
     font-family: "GT Haptik Regular"; }
+    .intro_text .blurb h4 {
+      max-width: 70%; }
 
 .work_btn {
   position: realtive;
@@ -574,7 +658,7 @@ body {
 .gallery {
   position: relative;
   top: 100vh;
-  padding: 4rem 0 44rem 0;
+  padding: 4rem 0 15rem 0;
   z-index: 500;
   background-color: white; }
 
@@ -583,7 +667,8 @@ body {
   margin: 0px; }
 
 .img-container {
-  background-color: white;
+  background-color: gray;
+  width: 100%;
   height: 300px;
   cursor: pointer;
   overflow: hidden; }
@@ -614,37 +699,27 @@ img {
   margin-top: 1.25rem;
   margin-left: -2rem; }
 
-.infor {
+.information {
   display: flex;
   position: relative;
   top: 80vh;
-  padding: 4rem 0 44rem 0;
+  padding: 5rem 0 8rem 0;
   z-index: 500;
-  background-color: #BFE9FF; }
+  background-color: black;
+  color: white;
+  position: realtive;
+  height: 100vh; }
+  .information .arrow {
+    width: 30px;
+    padding-top: 3rem; }
 
-.experience {
-  padding: 3rem 0;
-  /* background: #f7f7f7; */
-  text-align: left;
-  display: flex; }
+.para_container {
+  padding: 1rem; }
 
-.section-title {
-  position: relative;
-  width: 70%; }
-
-.section-content {
-  position: relative;
-  with: 70%;
-  text-align: left;
-  margin: 0px; }
-
-.title {
-  color: #2e2e2e;
-  font-size: 1.5rem;
-  font-weight: 700; }
+.para_title {
+  padding-top: 1rem; }
 
 .category {
-  font-size: 1rem;
   color: #787878; }
 
 .img-content {
@@ -660,6 +735,10 @@ img {
   width: 100%;
   height: 300px; }
 
+.thank_you {
+  background: red;
+  height: 300px; }
+
 @supports (display: grid) {
   .gallery .grid {
     grid-gap: 1rem; } }
@@ -671,8 +750,6 @@ img {
     justify-content: right; } }
 
 @media screen and (max-width: 1024px) {
-  .blurb {
-    font-size: 2.2rem; }
   img:hover {
     -webkit-transform: none;
     -ms-transform: none;
