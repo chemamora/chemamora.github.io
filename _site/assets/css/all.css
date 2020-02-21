@@ -1,6 +1,7 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -610,86 +611,83 @@ hr {
     box-sizing: border-box; }
 
 body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.125rem;
   line-height: 1.5;
   color: black;
   background: #fff;
   text-rendering: optimizeLegibility;
-  position: relative;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  position: relative; }
+
+ul li {
+  margin: 0 1.5rem 0 0; }
+
+a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  a:hover {
+    color: #2e2e2e; }
+  a.active {
+    color: #2e2e2e; }
+
+.container {
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 90%;
+  width: 100%; }
 
 .header {
   height: 100vh;
-  background-color: #FFE000;
-  position: relative;
-  z-index: 1;
-  background-position: top;
-  position: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  position: absolute;
+  background-color: #ffe100; }
 
-.container {
-  max-width: 90%; }
-
-.navigation {
-  position: relative;
-  height: 10%;
-  padding-top: 2rem; }
-  .navigation .nav #info {
+.nav {
+  padding: 2.5rem 0 2.5rem 0; }
+  .nav .column-md-1 {
     text-align: right; }
 
-.intro_text {
-  position: relative;
-  height: 80%;
-  display: table; }
-  .intro_text .blurb {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: "GT Haptik Regular"; }
-    .intro_text .blurb h4 {
-      max-width: 70%; }
+.blurb {
+  padding: 5rem 0;
+  font-size: 42px;
+  color: black;
+  height: 60%; }
 
-.work_btn {
-  position: realtive;
-  height: 10%; }
-  .work_btn .arrow {
-    width: 30px; }
+.work {
+  position: relative;
+  bottom: 10%; }
+
+#highlight {
+  font-size: 1.25rem; }
 
 .gallery {
-  position: relative;
-  top: 100vh;
-  padding: 4rem 0 44rem 0;
-  z-index: 500;
-  background-color: white; }
-
-.p_work {
   position: absolute;
-  margin: 0px; }
+  top: 100vh;
+  padding: 0 0 4rem 0; }
 
 .img-container {
-  background-color: gray;
   width: 100%;
   height: 300px;
   cursor: pointer;
   overflow: hidden; }
 
-.figure {
-  margin: 1em; }
-
 img {
   width: 100%;
-    width-height: 300px;
-    width--o-object-fit: cover;
+  height: 300px;
+  -o-object-fit: cover;
   object-fit: cover;
-    object-fit--webkit-transform: scale(1);
-    object-fit--ms-transform: scale(1);
-    object-fit-transform: scale(1);
-    object-fit--webkit-transition: all 0.3s ease-in-out;
-    object-fit--o-transition: all 0.3s ease-in-out;
-    object-fit-transition: all 0.3s ease-in-out; }
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  img:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02); }
 
 .img-content-hover {
   position: absolute;
@@ -702,22 +700,13 @@ img {
   margin-top: 1.25rem;
   margin-left: -2rem; }
 
-.information {
-  display: flex;
-  position: relative;
-  top: 80vh;
-  padding: 4rem 0 44rem 0;
-  z-index: 500;
-  background-color: black;
-  color: white; }
-
-.para_container {
-  padding: 1rem; }
-
-.para_title {
-  padding-top: 1rem; }
+.title {
+  color: #2e2e2e;
+  font-size: 1.5rem;
+  font-weight: 700; }
 
 .category {
+  font-size: 1rem;
   color: #787878; }
 
 .img-content {
@@ -729,9 +718,10 @@ img {
 .social li {
   display: inline-block; }
 
-.text-container {
-  width: 100%;
-  height: 300px; }
+footer {
+  padding: 1rem 0;
+  background: #f7f7f7;
+  text-align: center; }
 
 @supports (display: grid) {
   .gallery .grid {
@@ -750,6 +740,8 @@ img {
     transform: none; }
   .img-container {
     height: 100%; }
+    .img-container:hover .img-content-hover {
+      display: none; }
   .img-content {
     display: block;
     padding: 1rem 0; } }
@@ -896,5 +888,3 @@ footer {
   .img-content {
     display: block;
     padding: 1rem 0; } }
-
-/*# sourceMappingURL=all.css.map */
