@@ -1,6 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap");
-@import url("https://use.typekit.net/kqy7vkp.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -145,20 +144,40 @@ table {
 td, th {
   padding: 0; }
 
+@font-face {
+  font-family: 'Inter-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Regular.woff2?v=3.12") format("woff2"), url("../fonts/Inter/Inter-Regular.woff?v=3.12") format("woff"); }
+
+@font-face {
+  font-family: 'Inter-Extrabold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2?v=3.12") format("woff2"), url("../fonts/Inter/Inter-ExtraBold.woff?v=3.12") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("Inter-ExtraBoldItalic.woff2?v=3.12") format("woff2"), url("Inter-ExtraBoldItalic.woff?v=3.12") format("woff"); }
+
 p {
-  font-size: 1.25rem;
-  line-height: 44px;
-  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-family: 'Inter-regular';
   font-weight: 400;
   letter-spacing: .8px; }
 
 h4 {
-  font-size: 2.5rem;
-  font-family: titling-gothic-fb, sans-serif;
-  font-weight: 500;
+  font-size: 57px;
+  letter-spacing: -0.29px;
   font-style: normal;
-  font-style: normal;
-  margin: 0px; }
+  margin: 0px;
+  line-height: 64px;
+  text-transform: uppercase; }
 
 h5 {
   font-size: 1.4rem;
@@ -627,7 +646,6 @@ body {
   background: "#fff";
   text-rendering: optimizeLegibility;
   position: relative;
-  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -675,7 +693,7 @@ body {
 .gallery {
   position: relative;
   top: 100vh;
-  padding: 4rem 0 44rem 0;
+  padding: 4rem 0 15rem 0;
   z-index: 500;
   background-color: white; }
 
@@ -691,7 +709,7 @@ body {
   overflow: hidden; }
   .img-container:hover .caption {
     opacity: 1;
-    transform: translate(0px, -10px); }
+    transform: translate(0px, -5px); }
 
 .caption {
   transition: all 0.3s ease-in-out;

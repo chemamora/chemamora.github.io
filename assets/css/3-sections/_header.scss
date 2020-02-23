@@ -20,7 +20,7 @@ body {
   background: $white;
   text-rendering: optimizeLegibility;
   position: relative;
-  line-height: 1.6;
+  // line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
@@ -87,7 +87,7 @@ body {
 .gallery {
   position: relative;
   top: 100vh;
-  padding: 4rem 0 44rem 0;
+  padding: 4rem 0 15rem 0;
   z-index: 500;
   background-color: white;
 }
@@ -107,7 +107,7 @@ body {
   overflow: hidden;
   &:hover .caption {   
     opacity: 1;
-    transform: translate(0px, -10px);
+    transform: translate(0px, -5px);
   }
 }
 

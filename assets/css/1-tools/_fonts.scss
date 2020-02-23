@@ -1,59 +1,55 @@
-// @font-face {
-//   font-family: "GT Haptik Black";
-//   src: url("../fonts/gt-haptik/GT-Haptik-Black.ttf") format("ttf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Black.otf") format("otf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Black.woff") format("woff"),
-//        url("../fonts/gt-haptik/GT-Haptik-Black.woff2") format("woff2"),
-//        url("../fonts/gt-haptik/GT-Haptik-Black.eot") format("eot");
-// }
-// @font-face {
-//   font-family: "GT Haptik Bold";
-//   src: url("../fonts/gt-haptik/GT-Haptik-Bold.ttf") format("ttf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Bold.otf") format("otf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Bold.woff") format("woff"),
-//        url("../fonts/gt-haptik/GT-Haptik-Bold.woff2") format("woff2"),
-//        url("../fonts/gt-haptik/GT-Haptik-Bold.eot") format("eot");
-// }
-// @font-face {
-//   font-family: "GT Haptik Regular";
-//   src: url("../fonts/gt-haptik/GT-Haptik-Regular.ttf") format("ttf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Regular.otf") format("otf"),
-//        url("../fonts/gt-haptik/GT-Haptik-Regular.woff") format("woff"),
-//        url("../fonts/gt-haptik/GT-Haptik-Regular.woff2") format("woff2"),
-//        url("../fonts/gt-haptik/GT-Haptik-Regular.eot") format("eot");
-// }
+// REGULAR
+@font-face {
+  font-family: 'Inter-regular';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Regular.woff2?v=3.12") format("woff2"),
+       url("../fonts/Inter/Inter-Regular.woff?v=3.12") format("woff");
+}
 
-// @font-face {
-//   font-family: "telegrotesknext Thin";
-//   src: url("../fonts/telegrotesknext/telegrotesknext-thin.woff") format("woff");
-// }
 
-// @font-face {
-//   font-family: "WorkSans-Medium";
-//   src: url("../fonts/WorkSans/WorkSans-Medium.otf") format("otf");
-// }
+@font-face {
+  font-family: 'Inter-Extrabold';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2?v=3.12") format("woff2"),
+       url("../fonts/Inter/Inter-ExtraBold.woff?v=3.12") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("Inter-ExtraBoldItalic.woff2?v=3.12") format("woff2"),
+       url("Inter-ExtraBoldItalic.woff?v=3.12") format("woff");
+}
+
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
-@import url("https://use.typekit.net/kqy7vkp.css");
-// @import url('https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap');
-// @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 p {
-  font-size: 1.25rem;
-  line-height: 44px;
-  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  // line-height: 44px;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter-regular';
   font-weight: 400;
   letter-spacing: .8px;
 }
 
 h4 {
-  font-size: 2.5rem;
-  font-family: titling-gothic-fb, sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  // font-size: 2.5rem;
+  // font-family: 'Work Sans', sans-serif;
+  // font-weight: 500;
+  // font-style: normal;
   // font-weight: 700;
+  font-size: 57px;
+  letter-spacing: -0.29px;
   font-style: normal;
-  margin:0px;
-  // text-transform: uppercase;
+  margin: 0px;
+  line-height: 64px;
+  text-transform: uppercase;
 }
 
 h5 {
