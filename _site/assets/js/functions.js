@@ -1,5 +1,5 @@
 $(function() {
-	smoothScroll(300);
+	smoothScroll(800);
 	workBelt();
 	workLoad();
 	
@@ -115,6 +115,7 @@ function clientStuff() {
 
 
 (function( $ ){
+
 
   $.fn.fitText = function( kompressor, options ) {
 
