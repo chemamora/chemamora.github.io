@@ -5,7 +5,11 @@ $(function() {
 	
 	clientStuff();
 	
-	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' })
+  $("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' })
+  
+  $('.tlt').each(function(){
+		$(this).css({"left": Math.random() * window.outerWidth , "top": Math.random() * window.outerHeight})
+  });
 	
 });
 

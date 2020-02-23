@@ -1,3 +1,7 @@
+$sm: 48rem;
+$md: 62rem;
+$lg: 75rem;
+
 // REGULAR
 @font-face {
   font-family: 'Inter-regular';
@@ -39,17 +43,17 @@ p {
 }
 
 h4 {
-  // font-size: 2.5rem;
+  font-size: 2.5rem;
   // font-family: 'Work Sans', sans-serif;
   // font-weight: 500;
   // font-style: normal;
   // font-weight: 700;
-  font-size: 57px;
+  // font-size: 57px;
   letter-spacing: -0.29px;
   font-style: normal;
   margin: 0px;
   line-height: 64px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 h5 {
@@ -78,4 +82,22 @@ hr {
 }
 .hoverit:hover {
   transform: translate(0, -5px);
+}
+
+.undeline_hover {
+  transition: all 0.8s ease-in-out;
+}
+.undeline_hover:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 62rem) {
+  h4 {
+    font-size: 1.5rem;
+    line-height: 37px;
+  }
+  h5 {
+    padding-bottom: 20px;
+  }
 }

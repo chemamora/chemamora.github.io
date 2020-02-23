@@ -172,12 +172,11 @@ p {
   letter-spacing: .8px; }
 
 h4 {
-  font-size: 57px;
+  font-size: 2.5rem;
   letter-spacing: -0.29px;
   font-style: normal;
   margin: 0px;
-  line-height: 64px;
-  text-transform: uppercase; }
+  line-height: 64px; }
 
 h5 {
   font-size: 1.4rem;
@@ -201,10 +200,26 @@ hr {
 .hoverit:hover {
   transform: translate(0, -5px); }
 
+.undeline_hover {
+  transition: all 0.8s ease-in-out; }
+
+.undeline_hover:hover {
+  text-decoration: underline; }
+
+@media (max-width: 62rem) {
+  h4 {
+    font-size: 1.5rem;
+    line-height: 37px; }
+  h5 {
+    padding-bottom: 20px; } }
+
 /* 12columns.css | Created by Katherine Kato | Released under the MIT license */
 /* GitHub: https://kathykato.github.io/12columns/ */
 .pad_4_top {
   padding-top: 4rem; }
+
+.pad_1_top {
+  padding-top: 1rem; }
 
 .container {
   margin: auto;
@@ -649,6 +664,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+.tlt {
+  position: absolute; }
+
 .header {
   height: 100vh;
   width: 100%;
@@ -681,7 +699,7 @@ body {
     display: table-cell;
     vertical-align: middle; }
     .intro_text .blurb h4 {
-      max-width: 70%; }
+      max-width: 55%; }
 
 .work_btn {
   height: 10%; }
@@ -760,17 +778,23 @@ img {
   width: 100%;
   height: 300px; }
 
-@media (min-width: 62rem) {
+@media (max-width: 62rem) {
   .para_title nav ul {
     -webkit-box-pack: right;
     -ms-flex-pack: right;
-    justify-content: right; } }
+    justify-content: right; }
+  .para_title .intro_text {
+    position: relative;
+    height: 80%;
+    background-color: red;
+    display: table; }
+    .para_title .intro_text .blurb {
+      height: 100%;
+      display: table-cell;
+      vertical-align: top;
+      padding-top: 30%; } }
 
 @media screen and (max-width: 1024px) {
-  .para_title .blurb img:hover {
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none; }
   .para_title .img-container {
     height: 100%; }
   .para_title .img-content {
