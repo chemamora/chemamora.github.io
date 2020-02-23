@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap");
+@import url("https://use.typekit.net/kqy7vkp.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -145,18 +146,27 @@ td, th {
   padding: 0; }
 
 p {
-  font-size: 29px;
+  font-size: 1.25rem;
   line-height: 44px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   letter-spacing: .8px; }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-style: normal;
+  margin: 0px; }
+
+h5 {
+  font-size: 1.4rem;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  margin: 0px;
-  text-transform: uppercase; }
+  font-weight: 500;
+  font-style: normal;
+  font-style: normal;
+  margin: 0px; }
 
 a {
   color: black;
@@ -174,6 +184,9 @@ hr {
 
 /* 12columns.css | Created by Katherine Kato | Released under the MIT license */
 /* GitHub: https://kathykato.github.io/12columns/ */
+.pad_4_top {
+  padding-top: 4rem; }
+
 .container {
   margin: auto;
   padding: 0 1rem;
@@ -611,7 +624,7 @@ hr {
 body {
   line-height: 1.5;
   color: black;
-  background: #fff;
+  background: "#fff";
   text-rendering: optimizeLegibility;
   position: relative;
   line-height: 1.6;
@@ -620,6 +633,7 @@ body {
 
 .header {
   height: 100vh;
+  width: 100%;
   background-color: #FFE000;
   position: relative;
   z-index: 1;
@@ -636,8 +650,9 @@ body {
   position: relative;
   height: 10%;
   padding-top: 2rem; }
-  .navigation .nav #info {
-    text-align: right; }
+
+.nav #info {
+  text-align: right; }
 
 .intro_text {
   position: relative;
@@ -646,16 +661,16 @@ body {
   .intro_text .blurb {
     height: 100%;
     display: table-cell;
-    vertical-align: middle;
-    font-family: "GT Haptik Regular"; }
+    vertical-align: middle; }
     .intro_text .blurb h4 {
       max-width: 70%; }
 
 .work_btn {
-  position: realtive;
   height: 10%; }
   .work_btn .arrow {
-    width: 30px; }
+    width: 20px;
+    height: 50px;
+    margin-bottom: 20px; }
 
 .gallery {
   position: relative;
@@ -669,37 +684,35 @@ body {
   margin: 0px; }
 
 .img-container {
-  background-color: gray;
+  margin: 0 0 10px 0;
   width: 100%;
-  height: 300px;
+  height: auto;
   cursor: pointer;
   overflow: hidden; }
+  .img-container:hover .caption {
+    opacity: 1;
+    transform: translate(0px, -10px); }
 
-.figure {
-  margin: 1em; }
+.caption {
+  transition: all 0.3s ease-in-out;
+  transform: translate(0px, 10px);
+  font-size: 18px;
+  margin: 0px;
+  opacity: 0; }
 
 img {
-  width: 100%;
-    width-height: 300px;
-    width--o-object-fit: cover;
+  width: 95%;
+  height: 390px;
+  -o-object-fit: cover;
   object-fit: cover;
-    object-fit--webkit-transform: scale(1);
-    object-fit--ms-transform: scale(1);
-    object-fit-transform: scale(1);
-    object-fit--webkit-transition: all 0.3s ease-in-out;
-    object-fit--o-transition: all 0.3s ease-in-out;
-    object-fit-transition: all 0.3s ease-in-out; }
-
-.img-content-hover {
-  position: absolute;
-  z-index: 1;
-  white-space: nowrap;
-  display: none;
-  padding: 1rem;
-  background: #fff;
-  font-weight: 400;
-  margin-top: 1.25rem;
-  margin-left: -2rem; }
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  img:hover .img-content-hover {
+    transform: scale(1.02); }
 
 .information {
   display: flex;
@@ -710,46 +723,39 @@ img {
   background-color: black;
   color: white; }
 
-.para_container {
-  padding: 1rem; }
+.para_container p {
+  margin: 0px; }
 
-.para_title {
-  padding-top: 1rem; }
+.para_title .category {
+  color: "#787878"; }
 
-.category {
-  color: #787878; }
-
-.img-content {
+.para_title .img-content {
   display: none; }
 
-.social, .copyright {
+.para_title .social, .para_title .copyright {
   margin: 1rem; }
 
-.social li {
+.para_title .social li {
   display: inline-block; }
 
-.text-container {
+.para_title .text-container {
   width: 100%;
   height: 300px; }
 
-@supports (display: grid) {
-  .gallery .grid {
-    grid-gap: 1rem; } }
-
 @media (min-width: 62rem) {
-  nav ul {
+  .para_title nav ul {
     -webkit-box-pack: right;
     -ms-flex-pack: right;
     justify-content: right; } }
 
 @media screen and (max-width: 1024px) {
-  img:hover {
+  .para_title .blurb img:hover {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none; }
-  .img-container {
+  .para_title .img-container {
     height: 100%; }
-  .img-content {
+  .para_title .img-content {
     display: block;
     padding: 1rem 0; } }
 

@@ -33,11 +33,12 @@
 //   src: url("../fonts/WorkSans/WorkSans-Medium.otf") format("otf");
 // }
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+@import url("https://use.typekit.net/kqy7vkp.css");
 // @import url('https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap');
 // @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 p {
-  font-size: 29px;
+  font-size: 1.25rem;
   line-height: 44px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
@@ -45,11 +46,25 @@ p {
 }
 
 h4 {
-  font-size: 3rem;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  // font-weight: 700;
+  font-style: normal;
   margin:0px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  // font-weight: 700;
+  font-style: normal;
+  margin:0px;
+  // text-transform: uppercase;
 }
 
 a {
