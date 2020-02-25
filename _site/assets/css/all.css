@@ -679,6 +679,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.fake-2 {
+  color: red; }
+
 .container {
   max-width: 90%; }
 
@@ -800,5 +803,8 @@ img {
   .para_title .img-content {
     display: block;
     padding: 1rem 0; } }
+
+#work_1 {
+  background-color: red; }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,0 +1,6 @@
+---
+---
+
+
+{:.header}
+This will be styled as a p tag with the css class fake-2

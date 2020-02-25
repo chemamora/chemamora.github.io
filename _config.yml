@@ -6,6 +6,7 @@ permalink: pretty
 port: 8000
 
 include: ['_includes/header']
+include: ['work']
 exclude: ['the_design.psd']
 
 sass:

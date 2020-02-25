@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+I"Z$<p>&lt;!DOCTYPE html&gt;</p>
 <html class="">
 <head>
-  <meta charset="UTF-8">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Provide a description for your website to make it visible to search engines.">
-  <meta rel="author" href="https://plus.google.com/u/0/+DevTipsForDesigners/">
-  <meta rel="publisher" href="https://plus.google.com/u/0/+DevTipsForDesigners/">
+  <meta charset="UTF-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Provide a description for your website to make it visible to search engines." />
+  <meta rel="author" href="https://plus.google.com/u/0/+DevTipsForDesigners/" />
+  <meta rel="publisher" href="https://plus.google.com/u/0/+DevTipsForDesigners/" />
   
 
   <title>Chema Mora</title>
-  <link href="//db.onlinewebfonts.com/c/07342dff729e3ff82873f8eeee4c9612?family=GT+Haptik+Bold" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="assets/css/all.css">
+  <link href="//db.onlinewebfonts.com/c/07342dff729e3ff82873f8eeee4c9612?family=GT+Haptik+Bold" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="assets/css/all.css" />
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
@@ -49,7 +49,7 @@ and signage systems.</h4>
   <div class="container work_btn">
     <div class="grid arrow">
     <div class="column-xs-12 column-md-12">
-      <a href="#anchor_1"><img src="../assets/img/arrow.svg" class="arrow hoverit" ></a>
+      <a href="#anchor_1"><img src="../assets/img/arrow.svg" class="arrow hoverit" /></a>
     </div>
   </div>
   </div>
@@ -84,92 +84,92 @@ and signage systems.</h4>
     <div class="grid">
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
             <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption"><a href="/proj-1.html">⟶ Project Description</a></p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <a class="caption" href="/work/work_1/">Here</a>
           <a href="/work/work_1">Contact</a>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
+          <img src="../assets/img/web.jpg" />
           <p class="caption">⟶ Project Description</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/blue.jpg"/>s
+          <img src="../assets/img/work/blue.jpg" />s
           <p class="caption">⟶ Blue Energy - Web WebDesign</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/pantone.jpg"/>
+          <img src="../assets/img/work/pantone.jpg" />
           <p class="caption">⟶ Pantone Gallery App - Concept</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/DAHOUSE.jpg"/>
+          <img src="../assets/img/work/DAHOUSE.jpg" />
           <p class="caption">⟶ DAHOUSE Productions - WebDesign</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/Gallery_App.jpg"/>
+          <img src="../assets/img/work/Gallery_App.jpg" />
           <p class="caption">⟶ Picture Gallery App - Concept</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/book.jpg"/>
+          <img src="../assets/img/work/book.jpg" />
           <p class="caption">⟶ Booking App - Concept</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/ARC.jpg"/>
+          <img src="../assets/img/work/ARC.jpg" />
           <p class="caption">⟶ Architecture Studio Site - WebDesign</p>
         </figure>
       </div>
       <div class="column-xs-12 column-sm-6 column-md-4">
         <figure class="img-container">
-          <img src="../assets/img/work/GDPR.jpg"/>
+          <img src="../assets/img/work/GDPR.jpg" />
           <p class="caption">⟶ GDPR On boarding</p>
         </figure>
       </div>
@@ -226,3 +226,4 @@ and signage systems.</h4>
 <!-- REMEMBER TO ADD ANALYTICS! -->
 </body>
 </html>
+:ET
