@@ -1,0 +1,14 @@
+---
+layout: default
+title: About
+---
+# About page
+
+This page tells you a little bit about me.
+<p id="highlight">CHEMA MORA</p>
+<div class="column-xs-12 column-sm-6 column-md-4">
+        <figure class="img-container">
+          <img src="../assets/img/web.jpg"/>
+          <p class="caption_red">⟶ Project Description</p>
+        </figure>
+      </div>

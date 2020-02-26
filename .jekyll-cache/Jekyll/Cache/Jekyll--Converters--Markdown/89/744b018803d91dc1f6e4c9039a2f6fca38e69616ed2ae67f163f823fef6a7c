@@ -1,0 +1,11 @@
+I"8<h1 id="about-page">About page</h1>
+
+<p>This page tells you a little bit about me.</p>
+
+<div class="column-xs-12 column-sm-6 column-md-4">
+        <figure class="img-container">
+          <img src="../assets/img/web.jpg" />
+          <p class="caption">⟶ Project Description</p>
+        </figure>
+      </div>
+:ET

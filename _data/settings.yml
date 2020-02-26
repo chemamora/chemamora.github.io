@@ -11,6 +11,7 @@ email: chmorasan@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
+- {name: work_1, url: '#work_1'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 - {name: INFO, url: '#INFO'}
