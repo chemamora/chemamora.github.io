@@ -1,11 +1,13 @@
 # Build settings
 
-markdown: kramdown
-permalink: pretty
+# markdown: kramdown
+# permalink: pretty
 
 port: 8000
+# url: http://https://chemamora.github.io//The-Follow-Through/myblog 
 
 include: ['_includes/header']
+include: ['default']
 include: ['work']
 exclude: ['the_design.psd']
 

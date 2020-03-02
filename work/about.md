@@ -1,14 +1,47 @@
 ---
-layout: default
+layouts: default
 title: About
 ---
 # About page
 
-This page tells you a little bit about me.
-<p id="highlight">CHEMA MORA</p>
-<div class="column-xs-12 column-sm-6 column-md-4">
-        <figure class="img-container">
-          <img src="../assets/img/web.jpg"/>
-          <p class="caption_red">⟶ Project Description</p>
-        </figure>
+<section class="information" id="anchor_2">
+    <!-- <p>ABOUT</p> -->
+    <div class="container" id="info_container">
+      <!-- BIO -->
+      <div class="grid pad_4_top">
+        <div class="section-title column-xs-12 column-md-2">
+          <h5 class="para_title">BIÓ</h5>
+        </div>
+        <div class="section-content column-xs-12 column-md-5 para_container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quidem excepturi eos magnam autem. Laudantium autem possimus iure ex veritatis obcaecati, quaerat adipisci magni velit laboriosam, labore necessitatibus? Quis, ipsum!</p>
+        </div>
+        <div class="section-content column-xs-12 column-md-5 para_container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat quidem excepturi eos magnam autem. Laudantium autem possimus iure ex veritatis obcaecati, quaerat adipisci magni velit laboriosam, labore necessitatibus? Quis, ipsum!</p>
+        </div>
       </div>
+      <!-- EXPERIENCE -->
+      <div class="grid pad_4_top">
+        <div class="section-title column-xs-12 column-md-2">
+          <h5 class="para_title">ĒXPERIENCE</h5>
+        </div>
+        <p class="section-content column-xs-12 column-md-10 para_container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non vulputate mi. In fermentum ante ante, vitae pharetra felis placerat eu. Nulla velit mauris, auctor at rutrum sit amet, iaculis eget ante. Donec eu ante eget lectus condimentum ornare. Nam egestas porttitor condimentum. Cras lobortis, purus non bibendum suscipit, mauris purus gravida orci, sed venenatis ante ex sit amet dolor. Sed blandit erat vitae commodo vulputate. In id orci ligula. Praesent ac sodales enim. Donec vitae arcu sit amet lorem venenatis condimentum in ut odio. Donec viverra arcu ut ex ullamcorper, id interdum ligula suscipit. Pellentesque pharetra bibendum massa, vitae elementum dui rhoncus et.</p>
+      </div>
+      <!-- GET IN TOUCH -->
+      <div class="grid pad_4_top">
+        <div class="section-title column-xs-12 column-md-2">
+          <h5 class="para_title">GET IN TOUCḦ</h5>
+        </div>
+        <div class="column-xs-12 column-md-10 para_container">
+          <p class="undeline_hover">Ⓔ CHMORASAN@GMAIL.COM</p>
+          <p class="pad_1_top undeline_hover">Ⓜ +44 7599309899</p>
+          <!-- <img src="../assets/img/moji.png"></img> -->
+        </div>
+      </div>  
+      <div class="container work_btn"></div>
+        <div class="grid arrow">
+        <div class="column-xs-12 column-md-12">
+          <!-- <a href="#anchor_3"><img src="../assets/img/arrow_white.svg" class="arrow hoverit"></a> -->
+        </div>
+      </div>
+    </div>
+  </section>

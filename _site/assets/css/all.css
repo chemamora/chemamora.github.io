@@ -808,4 +808,14 @@ img {
   background-color: red;
   border: 2px solid red; }
 
+.full_screen_pop {
+  background-color: white;
+  opacity: .9;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 9000;
+  top: 0;
+  left: 0; }
+
 /*# sourceMappingURL=all.css.map */
