@@ -726,7 +726,6 @@ body {
   margin: 0 0 10px 0;
   width: 100%;
   height: auto;
-  cursor: pointer;
   overflow: hidden; }
   .img-container:hover .caption {
     opacity: 1;
