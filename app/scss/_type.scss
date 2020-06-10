@@ -3,12 +3,27 @@ $md: 62rem;
 $lg: 75rem;
 
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 125%;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
+  color: $black;
+}
 
 h6 {
   font-size: 1rem;
   line-height: 125%;
-  font-family: 'Work Sans', sans-serif;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif; 
   font-weight: 400;
 }
 
@@ -16,23 +31,28 @@ p {
   font-size: 1.625rem;
   line-height: 123%;
   // line-height: 44px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
   letter-spacing: .8px;
 }
 
 h4 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 2.25rem;
-    line-height: 111%;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  // font-size: 2.25rem;
+  // line-height: 111%;
+  font-size: 1.8rem;
+  line-height: 125%;
   letter-spacing: -0.29px;
 }
 
 h5 {
   font-size: 1.4rem;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  // font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 600;
 //   font-weight: 500;
   font-style: normal;
   // font-weight: 700;
@@ -40,6 +60,17 @@ h5 {
   margin:0px;
   // text-transform: uppercase;
 }
+
+
+
+h3 {
+  font-size: 1.6rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+
+}
+
 
 a {
   color: black;
@@ -65,7 +96,13 @@ hr {
   text-decoration: underline;
 }
 
+.remove_margin {
+  margin:0px !important;
+}
 
+.strong {
+  font-weight: 600;
+}
 @media (max-width: 62rem) {
   h4 {
     font-size: 1.5rem;

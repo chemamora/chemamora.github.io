@@ -1,0 +1,53 @@
+
+#project-header {
+    height: 100vh;
+    width: 100%;
+    background-color: $white;
+    position: relative;
+    z-index: 1;
+    background-position: top;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project {
+    position: relative;
+    top: 20vh;
+    padding: 4rem 0 15rem;
+    z-index: 500;
+    background-color: #fff;
+    .project{
+        position: relative;
+        top: 20vh;
+        padding: 4rem 0 15rem 0;
+        z-index: 500;
+        background-color: $white;
+    }
+    .project-full-width-img {
+        background-color: $ltGray;
+        height: 400px;
+        margin: 0px;
+        border: 5px solid $white;
+        background-image: url("../app/images/CBX.png");
+        background-repeat: no-repeat, repeat;
+    }
+    .project-img-container {
+        height: 400px;  
+        background-color: $ltGray;
+        margin: 0px;
+        border: 5px solid $white;
+    }
+    .project-text-container {
+        height: 400px;  
+        // background-color: $ltGray;
+        margin: 0px;
+        border: 5px solid $white;
+    }
+    .center-align {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
