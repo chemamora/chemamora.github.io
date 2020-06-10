@@ -28,13 +28,18 @@ h6 {
 }
 
 p {
-  font-size: 1.625rem;
-  line-height: 123%;
-  // line-height: 44px;
-  // font-family: 'Work Sans', sans-serif;
+  // font-size: 1.625rem;
+  // line-height: 123%;
+  // // line-height: 44px;
+  // // font-family: 'Work Sans', sans-serif;
+  // font-family: 'Inter', sans-serif; 
+  // font-weight: 200;
+  // letter-spacing: .8px;
+  font-size: 1.2rem;
+  line-height: 26PX;
+  letter-spacing: .8px;
   font-family: 'Inter', sans-serif; 
   font-weight: 200;
-  letter-spacing: .8px;
 }
 
 h4 {
@@ -102,6 +107,18 @@ hr {
 
 .strong {
   font-weight: 600;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
 }
 @media (max-width: 62rem) {
   h4 {
