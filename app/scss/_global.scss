@@ -8,5 +8,80 @@
 
 .flex {
     display: flex;
+}
 
+.bggrey {
+
+}
+/// MARGINS
+// Increments of 8px 
+
+.m-top-1 {
+    margin-top: 8px !important;
+  }
+  
+  .m-top-2 {
+    margin-top: 16px !important;
+  }
+  
+  .m-top-3 {
+    margin-top: 32px !important;
+  }
+  
+  .m-top-4 {
+    margin-top: 64px !important;
+  }
+
+  .m-right-1 {
+    margin-right: 8px !important;
+  }
+  .m-right-2 {
+    margin-right: 16px !important;
+  }
+
+//// HOVERS
+
+.hoverit {
+    transition: all 0.3s;
+}
+.hoverit:hover {
+    transform: translate(0, -5px);
+    font-weight: 400;
+}
+  
+.undeline-hover {
+    transition: all .3s ease-in-out;
+    &:hover {
+        font-weight: 400;
+    }
+}
+
+
+// LIST
+
+li {
+    list-style: disc;
+    // counter-increment: foo;
+    display: table-row;
+}
+
+li::before {
+    content:  "◦";
+    display: table-cell;
+    text-align: right;
+    padding-right: .4em;
+}
+
+// ALIGN 
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
 }

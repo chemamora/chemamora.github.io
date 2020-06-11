@@ -10,6 +10,7 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+
 h1 {
   font-size: 4rem;
   line-height: 125%;
@@ -76,7 +77,6 @@ h3 {
 
 }
 
-
 a {
   color: black;
   text-decoration: none;
@@ -87,19 +87,11 @@ hr {
   color: black;
 }
 
-.hoverit {
-  transition: all 0.3s;
-}
-.hoverit:hover {
-  transform: translate(0, -5px);
-}
-
-.undeline_hover {
-  transition: all 0.8s ease-in-out;
-}
-.undeline_hover:hover {
-  text-decoration: underline;
-}
+// .blurb {
+//   font-size: 1.5rem;
+//   letter-spacing: 0.8px;
+//   line-height: 26PX;
+// }
 
 .remove_margin {
   margin:0px !important;
@@ -109,17 +101,7 @@ hr {
   font-weight: 600;
 }
 
-.align-right {
-  text-align: right;
-}
 
-.align-center {
-  text-align: center;
-}
-
-.align-left {
-  text-align: left;
-}
 @media (max-width: 62rem) {
   h4 {
     font-size: 1.5rem;

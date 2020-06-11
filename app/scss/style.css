@@ -1,38 +1,86 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap");
-h1, h2, h3 {
-  font-weight: 700;
-  margin-top: 0px;
+@charset "UTF-8";
+@import url("https://rsms.me/inter/inter.css");
+.border-button {
+  border: 1px solid #000000;
+  padding: 4px;
 }
 
-h1 {
-  font-size: 2rem;
-  color: coral;
+.border-button:hover {
+  border-bottom: 3px solid #000000;
 }
 
-@media only screen and (min-width: 1000px) {
-  h1 {
-    font-size: 3rem;
-  }
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-h2 {
-  font-size: 1.5rem;
+.m-top-1 {
+  margin-top: 8px !important;
 }
 
-@media only screen and (min-width: 1000px) {
-  h2 {
-    font-size: 2rem;
-  }
+.m-top-2 {
+  margin-top: 16px !important;
 }
 
-h3 {
-  font-size: 1.25rem;
+.m-top-3 {
+  margin-top: 32px !important;
 }
 
-@media only screen and (min-width: 1000px) {
-  h3 {
-    font-size: 1.5rem;
-  }
+.m-top-4 {
+  margin-top: 64px !important;
+}
+
+.m-right-1 {
+  margin-right: 8px !important;
+}
+
+.m-right-2 {
+  margin-right: 16px !important;
+}
+
+.hoverit {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hoverit:hover {
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
+  font-weight: 400;
+}
+
+.undeline-hover {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.undeline-hover:hover {
+  font-weight: 400;
+}
+
+li {
+  list-style: disc;
+  display: table-row;
+}
+
+li::before {
+  content: "◦";
+  display: table-cell;
+  text-align: right;
+  padding-right: .4em;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
 }
 
 /* 12columns.css | Created by Katherine Kato | Released under the MIT license */
@@ -43,6 +91,14 @@ h3 {
 
 .pad_1_top {
   padding-top: 1rem;
+}
+
+.pad_4_left {
+  padding: 4px;
+}
+
+.spacer {
+  height: 100px;
 }
 
 .container {
@@ -668,36 +724,61 @@ h3 {
   }
 }
 
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  color: #000000;
+}
+
 h6 {
   font-size: 1rem;
   line-height: 125%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
 p {
-  font-size: 1.625rem;
-  line-height: 123%;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 26PX;
   letter-spacing: .8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
 }
 
 h4 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 2.25rem;
-  line-height: 111%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  font-size: 1.8rem;
+  line-height: 125%;
   letter-spacing: -0.29px;
 }
 
 h5 {
   font-size: 1.4rem;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-style: normal;
   margin: 0px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -710,23 +791,12 @@ hr {
   color: black;
 }
 
-.hoverit {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.remove_margin {
+  margin: 0px !important;
 }
 
-.hoverit:hover {
-  -webkit-transform: translate(0, -5px);
-          transform: translate(0, -5px);
-}
-
-.undeline_hover {
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
-}
-
-.undeline_hover:hover {
-  text-decoration: underline;
+.strong {
+  font-weight: 600;
 }
 
 @media (max-width: 62rem) {
@@ -742,6 +812,7 @@ hr {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *::before, *::after {
@@ -758,6 +829,11 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .tlt {
@@ -792,19 +868,23 @@ body {
   text-align: right;
 }
 
-.intro_text {
-  position: relative;
-  display: table;
+.blurb {
+  margin-top: 75vh;
+  font-weight: 200;
 }
 
-.intro_text .blurb {
-  height: 100%;
-  display: table-cell;
-  vertical-align: BOTTOM;
+.blurb .p_blurb {
+  font-size: 1.5rem;
 }
 
-.intro_text .blurb h4 {
-  max-width: 55%;
+.arrow_down {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.arrow_up {
+  text-align: right;
+  font-size: 1.5rem;
 }
 
 .work_btn {
@@ -820,7 +900,7 @@ body {
 .gallery {
   position: relative;
   top: 100vh;
-  padding: 4rem 0 15rem 0;
+  padding: 4rem 0;
   z-index: 500;
   background-color: white;
 }
@@ -831,36 +911,57 @@ body {
 }
 
 .img-container {
-  background-color: grey;
-  border: 10px solid #fff;
   margin: 0px;
   width: 100%;
-  height: 32rem;
+  min-height: 15rem;
   /* border: solid white 10px; */
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
 
-.img-container:hover .caption {
-  opacity: 1;
-  -webkit-transform: translate(0px, -5px);
-          transform: translate(0px, -5px);
+.img-container:hover {
+  opacity: .4;
 }
 
-.caption {
+.img-container img {
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+}
+
+.img-container img .img-container:hover ~ img {
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
+}
+
+.img-container:hover ~ #caption {
+  opacity: 1;
+  -webkit-transform: translate(0px, -50px);
+          transform: translate(0px, -50px);
+  font-weight: 300;
+}
+
+#caption {
+  font-weight: 300;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-transform: translate(0px, 10px);
           transform: translate(0px, 10px);
-  font-size: 18px;
-  margin: 0px;
   opacity: 0;
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+  font-size: 18px;
+  margin-left: 1rem;
+  position: absolute;
 }
 
 img {
-  width: 95%;
-  height: 390px;
-  -o-object-fit: cover;
-  object-fit: cover;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.3s ease-in-out;
@@ -921,12 +1022,6 @@ img:hover .img-content-hover {
     background-color: red;
     display: table;
   }
-  .para_title .intro_text .blurb {
-    height: 100%;
-    display: table-cell;
-    vertical-align: top;
-    padding-top: 30%;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -937,5 +1032,57 @@ img:hover .img-content-hover {
     display: block;
     padding: 1rem 0;
   }
+}
+
+#project-header {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  background-position: top;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#project {
+  position: relative;
+  top: 20vh;
+  z-index: 500;
+  background-color: #fff;
+}
+
+#project .project {
+  position: relative;
+  top: 20vh;
+  z-index: 500;
+  background-color: #ffffff;
+}
+
+#project .project-full-width-img {
+  margin: 0px;
+  border: 5px solid #ffffff;
+  background-image: url("../app/images/CBX.png");
+  background-repeat: no-repeat, repeat;
+}
+
+#project .project-img-container {
+  margin: 0px;
+  border: 5px solid #ffffff;
+}
+
+#project .project-text-container {
+  margin: 0px;
+  border: 5px solid #ffffff;
+}
+
+#project .center-align {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */

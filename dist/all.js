@@ -1,1 +1,1 @@
-console.log("test global"),console.log("test script");
+console.log("test global"),$(function(){var e=new ScrollMagic,o=TweenMax.staggerFromTo(".animation",.5,{scale:.95,opacity:0},{scale:1,opacity:1},.4);new ScrollScene({triggerElement:".scene",duration:1800}).setTween(o).addTo(e).addIndicators()}),console.log("test script");
