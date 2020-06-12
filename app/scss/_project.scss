@@ -1,48 +1,31 @@
-
 #project-header {
-    height: 100vh;
+    height: 17vh;
     width: 100%;
     background-color: $white;
-    position: relative;
+    // position: relative;
     z-index: 1;
-    background-position: top;
+    // background-position: top;
     position: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 }
 #project {
     position: relative;
-    top: 20vh;
-    // padding: 4rem 0 15rem;
+    top: 17vh;
     z-index: 500;
-    background-color: #fff;
-    .project{
-        position: relative;
-        top: 20vh;
-        // padding: 4rem 0 15rem 0;
-        z-index: 500;
-        background-color: $white;
-    }
+    background-color: $ltGray;
     .project-full-width-img {
-        // background-color: $ltGray;
-        // height: 400px;
         margin: 0px;
-        border: 5px solid $white;
-        background-image: url("../app/images/CBX.png");
-        background-repeat: no-repeat, repeat;
+        border: 5px solid $ltGray;
     }
     .project-img-container {
-        // height: 400px;  
-        // background-color: $ltGray;
         margin: 0px;
-        border: 5px solid $white;
+        border: 5px solid $ltGray;
     }
     .project-text-container {
-        // height: 400px;  
-        // background-color: $ltGray;
         margin: 0px;
-        border: 5px solid $white;
+        border: 5px solid $ltGray;
     }
     .center-align {
         position: absolute;
@@ -51,3 +34,19 @@
         transform: translate(-50%, -50%);
     }
 }
+
+.foot_project {
+    position: relative;
+    padding: 4rem 0;
+    // border-top: 1px solid #000;
+    margin-top: 4rem;
+    max-width: 100% !important;
+    background-color: white;
+    // color: white;
+}
+.foot_wrap {
+    max-width: 87%;
+    position: relative;
+    margin: 0 auto;
+  }
+

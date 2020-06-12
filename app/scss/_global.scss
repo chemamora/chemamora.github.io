@@ -1,78 +1,80 @@
 .border-button {
+  padding: 4px;
+  &:hover {
     border: 1px solid $black;
-    padding: 4px;
-    &:hover {
-        border-bottom: 3px solid $black;
-    }
+    border-bottom: 3px solid $black;
+  }
+}
+
+.border {
+  border: 1px solid black;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
-.bggrey {
-
+.white {
+  color: white !important;
 }
-/// MARGINS
+///////////////////////////////////////////////////////// MARGINS
 // Increments of 8px 
 
 .m-top-1 {
-    margin-top: 8px !important;
-  }
-  
-  .m-top-2 {
-    margin-top: 16px !important;
-  }
-  
-  .m-top-3 {
-    margin-top: 32px !important;
-  }
-  
-  .m-top-4 {
-    margin-top: 64px !important;
-  }
+  margin-top: 8px !important;
+}
+.m-top-2 {
+  margin-top: 16px !important;
+}
+.m-bottom-2 {
+  margin-bottom: 16px !important;
+}
+.m-top-3 {
+  margin-top: 32px !important;
+}
+.m-top-4 {
+  margin-top: 64px !important;
+}
+.m-top-10{
+  margin-top: 200px !important;
+}
+.m-right-1 {
+  margin-right: 8px !important;
+}
+.m-right-2 {
+  margin-right: 16px !important;
+}
+.remove_margin {
+  margin:0px !important;
+}
 
-  .m-right-1 {
-    margin-right: 8px !important;
-  }
-  .m-right-2 {
-    margin-right: 16px !important;
-  }
-
-//// HOVERS
+///////////////////////////////////////////////////////// HOVERS
 
 .hoverit {
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 .hoverit:hover {
-    transform: translate(0, -5px);
+  transform: translate(0, -5px);
+  font-weight: 400;
+}
+
+.hoverleft {
+  transition: all 0.3s;
+}
+
+.hoverleft:hover {
+    transform: translate(-5px, 0);
     font-weight: 400;
 }
   
 .undeline-hover {
-    transition: all .3s ease-in-out;
-    &:hover {
-        font-weight: 400;
-    }
+  transition: all .3s ease-in-out;
+  &:hover {
+    font-weight: 400;
+  }
 }
 
-
-// LIST
-
-li {
-    list-style: disc;
-    // counter-increment: foo;
-    display: table-row;
-}
-
-li::before {
-    content:  "◦";
-    display: table-cell;
-    text-align: right;
-    padding-right: .4em;
-}
-
-// ALIGN 
+///////////////////////////////////////////////////////// ALIGN 
 
 .align-right {
   text-align: right;
@@ -84,4 +86,33 @@ li::before {
 
 .align-left {
   text-align: left;
+}
+
+///////////////////////////////////////////////////////// PADDINGS
+
+.pad_4_top {
+  padding-top: 4rem;
+}
+.pad_1_top {
+  padding-top: 1rem;
+}
+
+.pad_4_left {
+  padding: 4px;
+}
+
+.spacer {
+  height: 100px;
+}
+
+///////////////////////////////////////////////////////// ARROWS 
+
+.arrow_down {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.arrow_up {
+  text-align: right;
+  font-size: 1.5rem;
 }

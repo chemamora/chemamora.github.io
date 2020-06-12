@@ -7,28 +7,11 @@ $sm: 48rem;
 $md: 62rem;
 $lg: 75rem;
 
-
-
-.pad_4_top {
-  padding-top: 4rem;
-}
-.pad_1_top {
-  padding-top: 1rem;
-}
-
-.pad_4_left {
-  padding: 4px;
-}
-
-.spacer {
-  height: 100px;
-}
-
 .container {
   margin: auto;
   padding: 0 1rem;
   max-width: 71.25rem;
-  width: 100%;
+  max-width: 90%;
 }
 
 .grid {

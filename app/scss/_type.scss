@@ -10,32 +10,60 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-
+///////////////////////////////////////////////////////// H1
 h1 {
   font-size: 4rem;
   line-height: 125%;
-  // font-family: 'Work Sans', sans-serif;
   font-family: 'Inter', sans-serif; 
   font-weight: 800;
   color: $black;
 }
 
-h6 {
-  font-size: 1rem;
+///////////////////////////////////////////////////////// H3
+h3 {
+  font-size: 1.6rem;
   line-height: 125%;
-  // font-family: 'Work Sans', sans-serif;
   font-family: 'Inter', sans-serif; 
   font-weight: 400;
 }
 
+///////////////////////////////////////////////////////// H4
+h4 {
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  font-size: 1.8rem;
+  line-height: 125%;
+  letter-spacing: -0.29px;
+}
+
+///////////////////////////////////////////////////////// H1
+h5 {
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 600;
+  font-style: normal;
+  font-style: normal;
+  margin:0px;
+}
+
+///////////////////////////////////////////////////////// H6
+h6 {
+  font-size: 1rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+}
+
+h7 {
+  font-size: 1rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  color: white;
+}
+
+///////////////////////////////////////////////////////// P
 p {
-  // font-size: 1.625rem;
-  // line-height: 123%;
-  // // line-height: 44px;
-  // // font-family: 'Work Sans', sans-serif;
-  // font-family: 'Inter', sans-serif; 
-  // font-weight: 200;
-  // letter-spacing: .8px;
   font-size: 1.2rem;
   line-height: 26PX;
   letter-spacing: .8px;
@@ -43,64 +71,46 @@ p {
   font-weight: 200;
 }
 
-h4 {
-  // font-family: 'Work Sans', sans-serif;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 200;
-  // font-size: 2.25rem;
-  // line-height: 111%;
-  font-size: 1.8rem;
-  line-height: 125%;
-  letter-spacing: -0.29px;
-}
-
-h5 {
-  font-size: 1.4rem;
-  // font-family: 'Work Sans', sans-serif;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 600;
-//   font-weight: 500;
-  font-style: normal;
-  // font-weight: 700;
-  font-style: normal;
-  margin:0px;
-  // text-transform: uppercase;
-}
-
-
-
-h3 {
-  font-size: 1.6rem;
-  line-height: 125%;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 400;
-
-}
-
+///////////////////////////////////////////////////////// A
 a {
   color: black;
   text-decoration: none;
 }
 
+///////////////////////////////////////////////////////// LIST
+
+li {
+  list-style: disc;
+  // counter-increment: foo;
+  display: table-row;
+}
+
+li::before {
+  content:  "◦";
+  display: table-cell;
+  text-align: right;
+  padding-right: .4em;
+}
+
+///////////////////////////////////////////////////////// CAPTION
+.caption {
+  font-size: .6rem;
+    font-weight: 400;
+}
+
+///////////////////////////////////////////////////////// HR
 hr {
   height: 10px;
   color: black;
 }
 
-// .blurb {
-//   font-size: 1.5rem;
-//   letter-spacing: 0.8px;
-//   line-height: 26PX;
-// }
-
-.remove_margin {
-  margin:0px !important;
-}
-
+///////////////////////////////////////////////////////// STRONG
 .strong {
   font-weight: 600;
 }
-
+.supahstrong {
+  font-weight: 900;
+}
 
 @media (max-width: 62rem) {
   h4 {
