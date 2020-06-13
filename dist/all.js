@@ -1,1 +1,1 @@
-console.log("test global"),console.log("test script");
+console.log("test global"),console.log("test script"),$(document).ready(function(){$(document).scroll(function(){})});

@@ -11,11 +11,16 @@
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
 }
 
 .white {
   color: white !important;
+}
+
+
+.rotate_45 {
+  transform: rotate(45deg);
 }
 ///////////////////////////////////////////////////////// MARGINS
 // Increments of 8px 
@@ -34,6 +39,9 @@
 }
 .m-top-4 {
   margin-top: 64px !important;
+}
+.m-top-5 {
+  margin-top: 128px !important;
 }
 .m-top-10{
   margin-top: 200px !important;
