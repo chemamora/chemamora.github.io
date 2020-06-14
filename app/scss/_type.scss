@@ -19,6 +19,13 @@ html { font-family: 'Inter', sans-serif; }
   font-weight: 800;
   color: $black;
   // text-decoration: line-through;
+  // text-decoration-color: $fluor-orange;
+}
+.highlight {
+  background-color: #d6d6d6;
+}
+text_white {
+  color: $white !important;
 }
 
 

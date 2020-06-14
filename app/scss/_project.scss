@@ -51,7 +51,7 @@
     height: 50px;
     left: -25px;
     position: relative;
-    background-color: #FF3D00;
+    background-color: $fluor-orange;
     border-radius: 50px;
     z-index: -1;
     img {
@@ -91,6 +91,8 @@
         // border: 2px solid
     }
 }
+
+
 
 .foot_project {
     position: relative;
