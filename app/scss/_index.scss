@@ -191,3 +191,13 @@ img {
 }
 
 
+@media (max-width: $xs)  {
+
+  .navigation {
+    padding-top: 0rem;
+  }
+  .blurb{
+    margin-top: 70vh;
+  }
+ 
+}

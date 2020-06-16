@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://rsms.me/inter/inter.css");
+:root {
+  --size: 10px;
+}
+
 .reveal {
   opacity: 0;
   -webkit-transform: translate3d(0, 100px, 0);
@@ -852,6 +856,7 @@ html {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   color: #2B2B2B;
+  overflow-x: hidden;
 }
 
 .highlight {
@@ -963,6 +968,19 @@ hr {
   }
   h5 {
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 30rem) {
+  p {
+    font-size: 1.1rem;
+    line-height: 23PX;
+    letter-spacing: .8px;
+    font-family: Inter,sans-serif;
+    font-weight: 200;
+  }
+  .huge {
+    font-size: 2.6rem;
   }
 }
 
@@ -1152,6 +1170,15 @@ img {
   }
 }
 
+@media (max-width: 30rem) {
+  .navigation {
+    padding-top: 0rem;
+  }
+  .blurb {
+    margin-top: 70vh;
+  }
+}
+
 #project-header {
   height: 17vh;
   width: 100%;
@@ -1190,50 +1217,6 @@ img {
           transform: translate(-50%, -50%);
 }
 
-.avatar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50px;
-  height: 50px;
-}
-
-.avatar img {
-  border-radius: 50px;
-}
-
-.avatar_2 {
-  width: 50px;
-  height: 50px;
-  left: -25px;
-  position: relative;
-  background-color: #FF3D00;
-  border-radius: 50px;
-  z-index: -1;
-}
-
-.avatar_3 {
-  width: 50px;
-  height: 50px;
-  left: -15px;
-  position: relative;
-  background-color: #FB8871;
-  border-radius: 50px;
-  left: -50px;
-  z-index: -2;
-}
-
-.avatar_4 {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  background-color: #FF3D00;
-  opacity: .3;
-  border-radius: 50px;
-  left: -75px;
-  z-index: -3;
-}
-
 .foot_project {
   position: relative;
   padding: 4rem 0;
@@ -1246,5 +1229,60 @@ img {
   max-width: 87%;
   position: relative;
   margin: 0 auto;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.avatar_2 {
+  width: 50px;
+  height: 50px;
+  left: -25px;
+  position: relative;
+  background-color: #FF3D00;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.avatar_3 {
+  width: 50px;
+  height: 50px;
+  left: -15px;
+  position: relative;
+  background-color: #FB8871;
+  border-radius: 50%;
+  left: -50px;
+  z-index: -2;
+}
+
+.avatar_4 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: #FF3D00;
+  opacity: .3;
+  border-radius: 50%;
+  left: -75px;
+  z-index: -3;
+}
+
+@media (max-width: 30rem) {
+  .avatar_2 {
+    width: 50px;
+    height: 50px;
+    left: -30px;
+  }
+  .avatar_3, .avatar_4 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
