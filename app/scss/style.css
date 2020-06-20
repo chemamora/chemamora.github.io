@@ -867,6 +867,10 @@ text_white {
   color: #ffffff !important;
 }
 
+.morse {
+  font-weight: 900;
+}
+
 h1 {
   font-size: 4rem;
   line-height: 125%;
@@ -1085,10 +1089,6 @@ img {
   overflow: hidden;
 }
 
-.img-container:hover {
-  opacity: .4;
-}
-
 .img-container img {
   width: 100%;
   height: auto;
@@ -1096,9 +1096,18 @@ img {
           transform: scale(1);
 }
 
-.img-container img .img-container:hover ~ img {
-  -webkit-transform: scale(1.9);
-          transform: scale(1.9);
+.img_hover {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-container:hover .img_hover {
+  display: block;
+  opacity: 1;
 }
 
 .img-container:hover ~ #caption {
@@ -1157,6 +1166,9 @@ img {
     position: relative;
     height: 80%;
     display: table;
+  }
+  .img_hover {
+    opacity: 1;
   }
 }
 
