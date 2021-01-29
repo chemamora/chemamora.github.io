@@ -102,9 +102,9 @@ img {
   min-height: 15rem;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  &:hover {
-    // opacity: .4;
-  }
+  // &:hover {
+  //   // opacity: .4;
+  // }
   img{
     width: 100%;
     height: auto;
@@ -155,7 +155,7 @@ img {
   position: relative;
   padding: 1rem 0;
   // border-top: 1px solid #000;
-  // margin-top: 3rem;
+  margin-top: 3rem;
   max-width: 100% !important;
   background-color: $ltGray;
   // color: white;
@@ -171,9 +171,9 @@ img {
 ///////////////////////////////////////////////////////// MEDIA
 
 @supports (display: grid) {
-  .gallery .grid {
-    // grid-gap: 1rem;
-  }
+  // .gallery .grid {
+  //   // grid-gap: 1rem;
+  // }
   .footer {
     grid-gap: 0 !important;
   }
