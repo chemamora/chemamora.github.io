@@ -44,6 +44,11 @@ $lg: 75rem;
   align-items: end;
 }
 
+.spacer {
+  height: 50px;
+  position: absolute;
+}
+
 @for $i from 1 through $grid-columns {
   .column-xs-#{$i} {
     flex-basis: $i / $grid-columns * 100%;
