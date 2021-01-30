@@ -155,7 +155,23 @@
   }
 }
 
+
+
+.all_center_horizontal {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 ///////////////////////////////////////////////////////// ALIGN 
+
+.align-content-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: right;
+}
 
 .align-right {
   text-align: right;
@@ -169,16 +185,31 @@
   text-align: left;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+
 ///////////////////////////////////////////////////////// PADDINGS
 
 .pad_4_top {
   padding-top: 4rem;
 }
+
+.pad_2_top {
+  padding-top: 2rem;
+}
+
 .pad_1_top {
   padding-top: 1rem;
 }
 
 .pad_4_left {
+  padding: 4px;
+}
+
+.pad_4_right {
   padding: 4px;
 }
 

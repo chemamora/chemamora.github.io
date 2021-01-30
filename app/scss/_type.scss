@@ -67,7 +67,9 @@ h5 {
   font-weight: 600;
   font-style: normal;
   font-style: normal;
-  margin:0px;
+  margin: 0px;
+  letter-spacing: -0.017rem;
+  line-height: 48px;
 }
 
 ///////////////////////////////////////////////////////// H6
@@ -81,7 +83,6 @@ h6 {
 }
 
 
-
 h7 {
   font-size: 1rem;
   line-height: 125%;
@@ -90,13 +91,31 @@ h7 {
   color: white;
 }
 
+
+///////////////////////////////////////////////////////// QUOTE
+
+.quote {
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 600;
+  font-style: normal;
+  font-style: normal;
+  margin: 0px;
+  letter-spacing: -0.0166573em;
+    line-height: 28px;
+}
+
 ///////////////////////////////////////////////////////// P
 p {
-  font-size: 1rem;
-  line-height: 26PX;
-  letter-spacing: .8px;
+  // font-size: 1rem;
+  // line-height: 26PX;
+  // letter-spacing: .8px;
+  // font-family: 'Inter', sans-serif; 
+  // font-weight: 300;
   font-family: 'Inter', sans-serif; 
-  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: -0.009em;
+  line-height: 21px;
 }
 
 ///////////////////////////////////////////////////////// A
@@ -128,7 +147,7 @@ li::before {
 
 ///////////////////////////////////////////////////////// HR
 hr {
-  height: 10px;
+  height: 0px;
   color: black;
 }
 
@@ -145,13 +164,37 @@ hr {
   text-transform: uppercase;
 }
 
+.tag {
+  font-family: 'Inter', sans-serif; 
+  font-size: 15px;
+  letter-spacing: -0.009em;
+  line-height: 21px;
+  max-width: fit-content;
+  padding: 1px 8px;
+  margin-left: 4px;
+  // border-radius: 20px;
+}
+
+.digital {
+  background-color: $fluor-orange;
+  color: $white;
+}
+.print{
+  background: $bg-yellow;
+  color: $black;
+}
+.branding {
+  background-color: $green;
+  color: $white;
+}
+
 @media (max-width: 62rem) {
   h4 {
     font-size: 1.5rem;
     line-height: 37px;
   }
   h5 {
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
   }
 }
 
