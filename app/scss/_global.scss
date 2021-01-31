@@ -190,6 +190,10 @@
   justify-content: center;
 }
 
+.justify_end {
+  justify-content: flex-end;
+}
+
 
 ///////////////////////////////////////////////////////// PADDINGS
 
@@ -223,9 +227,11 @@
   text-align: right;
   font-size: 1.5rem;
   max-width: 87%;
+  line-height: 1.8rem;
 }
 
 .arrow_up {
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
 }

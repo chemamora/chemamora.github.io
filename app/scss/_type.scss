@@ -91,6 +91,15 @@ h7 {
   color: white;
 }
 
+.hello {
+  font-size: 1.4rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 100;
+  // text-transform: uppercase;
+  letter-spacing: .8PX;
+}
+
 
 ///////////////////////////////////////////////////////// QUOTE
 
@@ -113,9 +122,9 @@ p {
   // font-family: 'Inter', sans-serif; 
   // font-weight: 300;
   font-family: 'Inter', sans-serif; 
-  font-size: 15px;
-  letter-spacing: -0.009em;
-  line-height: 21px;
+  font-size: 18px;
+  letter-spacing: 0.257412px;
+  line-height: 25px;
 }
 
 ///////////////////////////////////////////////////////// A
@@ -168,7 +177,7 @@ hr {
   font-family: 'Inter', sans-serif; 
   font-size: 15px;
   letter-spacing: -0.009em;
-  line-height: 21px;
+  // line-height: 21px;
   max-width: fit-content;
   padding: 1px 8px;
   margin-left: 4px;
@@ -187,6 +196,15 @@ hr {
   background-color: $green;
   color: $white;
 }
+.ux {
+  background-color: $electric_blue;
+  color: $white;
+}
+
+.ui {
+  background-color: $pink;
+  color: $white;
+}
 
 @media (max-width: 62rem) {
   h4 {
@@ -200,13 +218,13 @@ hr {
 
 @media (max-width: $xs)  {
   
-  p{
-    font-size: 1.1rem;
-    line-height: 23PX;
-    letter-spacing: .8px;
-    font-family: Inter,sans-serif;
-    // font-weight: 200;
-  }
+  // p{
+  //   // font-size: 1.1rem;
+  //   // line-height: 23PX;
+  //   // letter-spacing: .8px;
+  //   // font-family: Inter,sans-serif;
+  //   // // font-weight: 200;
+  // }
 
   
   .huge {
