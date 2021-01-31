@@ -10,10 +10,13 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+.white {
+  color: $white;
+}
 
 ///////////////////////////////////////////////////////// HUGE
 .huge {
-  font-size: 4.6rem;
+  font-size: 2.6rem;
   line-height: 125%;
   font-family: 'Inter', sans-serif; 
   font-weight: 800;
@@ -22,8 +25,18 @@ html { font-family: 'Inter', sans-serif; }
   // text-decoration: line-through;
   // text-decoration-color: $fluor-orange;
 }
+.huge_light {
+  font-size: 3.3rem;
+  line-height: 125%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 200;
+  color: $black;
+  overflow-x: hidden;
+  // text-decoration: line-through;
+  // text-decoration-color: $fluor-orange;
+}
 .highlight {
-  background-color: #d6d6d6;
+  // background-color: #d6d6d6;
 }
 text_white {
   color: $white !important;
@@ -95,7 +108,7 @@ h7 {
   font-size: 1.4rem;
   line-height: 125%;
   font-family: 'Inter', sans-serif; 
-  font-weight: 100;
+  font-weight: 500;
   // text-transform: uppercase;
   letter-spacing: .8PX;
 }
@@ -114,6 +127,11 @@ h7 {
     line-height: 28px;
 }
 
+
+///////////////////////////////////////////////////////// VERTICAL 
+.vertical {
+  transform: rotate(-90deg);
+}
 ///////////////////////////////////////////////////////// P
 p {
   // font-size: 1rem;
@@ -125,6 +143,7 @@ p {
   font-size: 18px;
   letter-spacing: 0.257412px;
   line-height: 25px;
+  margin: 0 auto;
 }
 
 ///////////////////////////////////////////////////////// A
@@ -211,23 +230,15 @@ hr {
     font-size: 1.5rem;
     line-height: 37px;
   }
-  h5 {
-    // padding-bottom: 20px;
-  }
+
 }
 
 @media (max-width: $xs)  {
-  
-  // p{
-  //   // font-size: 1.1rem;
-  //   // line-height: 23PX;
-  //   // letter-spacing: .8px;
-  //   // font-family: Inter,sans-serif;
-  //   // // font-weight: 200;
-  // }
-
-  
   .huge {
-      font-size: 2.6rem;
+      font-size: 1.6rem;
+  }
+  .huge_light {
+    font-size: 1.6rem;
+    
   }
 }
